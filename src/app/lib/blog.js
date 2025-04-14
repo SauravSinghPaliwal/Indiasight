@@ -1,13 +1,11 @@
 import matter from "gray-matter";
 
 // Manually import markdown files
-import post1 from "../../posts/post-1.md";
-import post2 from "../../posts/post-2.md";
+import post1 from '../../posts/llm-tutorial.mdx?raw';
 
 // You must use `?raw` to import the file as a string
 const allPosts = [
-  { slug: "post-1", content: post1 },
-  { slug: "post-2", content: post2 },
+  { slug: "post1", content: post1 },
 ];
 
 export function getSortedPostsData() {

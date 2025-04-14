@@ -6,7 +6,7 @@ import FeaturesRow from "./components/FeaturesRow";
 import Highlight from "./components/highlight";
 import About from "./components/about";
 import Footer from "./components/Footer";
-import BlogPreview from "./components/BlogPreview";
+import BlogSection from "./components/BlogPreview"; // New Component
 
 export default function Home() {
   const servicesRef = useRef(null);
@@ -64,7 +64,7 @@ export default function Home() {
 
       {/* Blog Section */}
       <section ref={blogRef} className={styles.blogSection}>
-        <BlogPreview />
+        <BlogSection />
       </section>
 
       {/* "About" Section */}
