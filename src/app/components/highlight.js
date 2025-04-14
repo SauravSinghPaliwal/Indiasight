@@ -88,3 +88,4 @@ export default function Highlight() {
     </section>
   );
 }
+/* eslint-disable react/no-unescaped-entities */
