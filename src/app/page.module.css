@@ -188,6 +188,10 @@
   /* No horizontal padding */
   padding: 2rem 0;
 }
+.blogSection {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
