@@ -1,0 +1,50 @@
+.connectContainer {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #faf8ff, #ffffff);
+  }
+  
+  .connectContainer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #2b2b2b;
+  }
+  
+  .connectContainer p {
+    font-size: 1rem;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+  }
+  
+  .ellipseWrapper {
+    position: relative;
+    display: inline-block;
+    background: #e8e4ff;
+    padding: 3rem 5rem;
+    border-radius: 999px;
+  }
+  
+  .demoButton {
+    background-color: #7a42f4;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 2rem;
+  }
+  
+  .profileCard {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  

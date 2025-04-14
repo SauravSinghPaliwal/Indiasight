@@ -1,0 +1,23 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Concentric Circles -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#4ade80" stroke-width="8" />
+  <circle cx="250" cy="250" r="180" fill="none" stroke="#4ade80" stroke-width="8" />
+  <circle cx="250" cy="250" r="160" fill="none" stroke="#4ade80" stroke-width="8" />
+  <circle cx="250" cy="250" r="140" fill="none" stroke="#4ade80" stroke-width="8" />
+  <circle cx="250" cy="250" r="120" fill="none" stroke="#4ade80" stroke-width="8" />
+  <circle cx="250" cy="250" r="100" fill="none" stroke="#4ade80" stroke-width="8" />
+  <circle cx="250" cy="250" r="80" fill="none" stroke="#4ade80" stroke-width="8" />
+  
+  <!-- Square Pattern -->
+  <rect x="150" y="150" width="200" height="200" fill="none" stroke="#4ade80" stroke-width="8" />
+  <rect x="170" y="170" width="160" height="160" fill="none" stroke="#4ade80" stroke-width="8" />
+  <rect x="190" y="190" width="120" height="120" fill="none" stroke="#4ade80" stroke-width="8" />
+  <rect x="210" y="210" width="80" height="80" fill="none" stroke="#4ade80" stroke-width="8" />
+  <rect x="230" y="230" width="40" height="40" fill="none" stroke="#4ade80" stroke-width="8" />
+  
+  <!-- Connecting Lines -->
+  <line x1="100" y1="250" x2="150" y2="250" stroke="#4ade80" stroke-width="8" />
+  <line x1="350" y1="250" x2="400" y2="250" stroke="#4ade80" stroke-width="8" />
+  <line x1="250" y1="100" x2="250" y2="150" stroke="#4ade80" stroke-width="8" />
+  <line x1="250" y1="350" x2="250" y2="400" stroke="#4ade80" stroke-width="8" />
+</svg>

@@ -1,0 +1,120 @@
+.footerContainer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #2b2b2bb9;
+  width: 100%;
+}
+
+.sectionHeading {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+/* Grid layout similar to your features design */
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Contact card with pseudo-element blur effect */
+.contactCard {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: none;
+  color: #fff;
+  text-align: left;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.contactCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+
+.contactCard:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.contactCard p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+/* Social icons styling */
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* Newsletter section */
+.newsletter {
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.newsletter h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.subscribeRow {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.subscribeRow input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Provided .servicesBtn style */
+.servicesBtn {
+  background-color: #F27D16;
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.footerBottom {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}

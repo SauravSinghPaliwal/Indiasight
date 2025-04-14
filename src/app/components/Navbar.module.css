@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+    justify-content: space-between;
+  }
+  
+  .logoArea {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    object-fit: contain;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .versionBadge {
+    background-color: #a0f;
+    color: #fff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-left: 0.25rem;
+  }
+  
+  .rightArea {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .searchIcon {
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    cursor: pointer;
+  }  

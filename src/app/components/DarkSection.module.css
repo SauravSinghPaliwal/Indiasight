@@ -1,0 +1,50 @@
+.darkSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2d3d;
+    color: #fff;
+    padding: 4rem 1rem;
+    gap: 2rem;
+  }
+  
+  .contentWrapper {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contentWrapper h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contentWrapper p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .ctaButton {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .imageWrapper {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .placeholderImage {
+    background-color: #2d3748;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  

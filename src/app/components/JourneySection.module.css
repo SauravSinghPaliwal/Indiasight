@@ -1,0 +1,37 @@
+.journeyContainer {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #ffffff, #fafafa);
+  }
+  
+  .journeyContainer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #2b2b2b;
+  }
+  
+  .floatingAvatars {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .avatarItem {
+    position: relative;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .avatarItem img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  

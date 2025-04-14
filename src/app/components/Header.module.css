@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2d3d; /* Dark background */
+    padding: 1rem 2rem;
+  }
+  
+  .brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav li {
+    cursor: pointer;
+    color: #fff;
+    transition: opacity 0.3s;
+  }
+  
+  .nav li:hover {
+    opacity: 0.7;
+  }  

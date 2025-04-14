@@ -1,0 +1,16 @@
+/* src/app/globals.css */
+
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  /* Fallback color if gradient fails */
+  background-color: #000;
+  color: #fff;
+}

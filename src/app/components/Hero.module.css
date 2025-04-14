@@ -1,0 +1,70 @@
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #1f2d3d; /* same as body background for a seamless look */
+  }
+  
+  /* Left shape: bright green lines on a navy background */
+  .leftShape {
+    flex: 1;
+    min-width: 250px;
+    height: 300px;
+    margin-right: 2rem;
+    /* Example background approach using an inline SVG or data URI.
+       Replace with your actual shape if you have it. */
+    background-image: radial-gradient(#16ff8d 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-repeat: repeat;
+  }
+  
+  /* Right text content */
+  .rightContent {
+    flex: 1;
+    max-width: 600px;
+    color: #fff;
+  }
+  
+  .rightContent h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  
+  .rightContent p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #d9d9d9; /* Slightly lighter text for subheading */
+  }
+  
+  .servicesBtn {
+    background-color: #16ff8d; /* Bright green */
+    color: #1f2d3d;            /* Dark text for contrast */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .servicesBtn:hover {
+    background-color: #12e67a; /* Slightly darker green on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .heroContainer {
+      flex-direction: column;
+      text-align: center;
+    }
+    .leftShape {
+      margin: 0 0 2rem;
+      width: 200px;
+      height: 200px;
+    }
+    .rightContent {
+      max-width: 100%;
+    }
+  }  

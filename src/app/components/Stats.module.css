@@ -1,0 +1,23 @@
+.statsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    background: linear-gradient(90deg, #fff, #fdfdfd);
+  }
+  
+  .statItem {
+    text-align: center;
+  }
+  
+  .statItem h3 {
+    font-size: 2rem;
+    color: #7a42f4;
+    margin-bottom: 0.5rem;
+  }
+  
+  .statItem p {
+    font-size: 1rem;
+    color: #4a4a4a;
+  }
+  
