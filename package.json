@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "tailwindcss@latest install"
+    "postinstall": "npx tailwindcss install"
   },
   "dependencies": {
     "@react-spring/three": "^9.7.5",
