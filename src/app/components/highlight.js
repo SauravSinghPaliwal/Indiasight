@@ -19,13 +19,10 @@ export default function Highlight() {
           />
           <h3>Expertise in NVIDIA AI Stack</h3>
           <p>
-          Comprehensive experience across NVIDIA's hardware and software
-          ecosystem, including DGX systems, TensorRT, NeMo, and Mistral
-          models.
+            {"Comprehensive experience across NVIDIA's hardware and software ecosystem, including DGX systems, TensorRT, NeMo, and Mistral models."}
           </p>
           <p>
-          Proven ability to optimize deep learning workflows for maximum
-          performance.
+            {"Proven ability to optimize deep learning workflows for maximum performance."}
           </p>
         </div>
         <div className={styles.featureItem}>
@@ -38,7 +35,7 @@ export default function Highlight() {
           />
           <h3>Scalable and Efficient AI Deployments</h3>
           <p>
-            Expertise in Docker and Kubernetes for streamlined deployments.
+            {"Expertise in Docker and Kubernetes for streamlined deployments."}
           </p>
         </div>
         <div className={styles.featureItem}>
@@ -51,12 +48,10 @@ export default function Highlight() {
           />
           <h3>Tailored AI Solutions</h3>
           <p>
-            Specialization in building AI models customized to meet the unique
-            needs of industries like government, healthcare, and agriculture.
+            {"Specialization in building AI models customized to meet the unique needs of industries like government, healthcare, and agriculture."}
           </p>
           <p>
-          From fraud detection to multilingual ASR, solutions are designed to be
-          impactful and scalable.
+            {"From fraud detection to multilingual ASR, solutions are designed to be impactful and scalable."}
           </p>
         </div>
       </div>
@@ -76,16 +71,13 @@ export default function Highlight() {
           />
           <h3>AI Infrastructure Optimization</h3>
           <p>
-            Expertise in Retrieval-Augmented Generation (RAG) pipelines and
-            integration of digital humans for enhanced user experience.
+            {"Expertise in Retrieval-Augmented Generation (RAG) pipelines and integration of digital humans for enhanced user experience."}
           </p>
           <p>
-          Focused on cutting-edge applications of Generative AI for content
-          creation and information retrieval.
+            {"Focused on cutting-edge applications of Generative AI for content creation and information retrieval."}
           </p>
         </div>
       </div>
     </section>
   );
 }
-/* eslint-disable react/no-unescaped-entities */
