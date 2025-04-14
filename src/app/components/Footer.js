@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.footerBottom}>
-        <p>© 2025 Indian Sight. All rights reserved.</p>
+        <p>{"© 2025 Indian Sight. All rights reserved."}</p>
       </div>
     </footer>
   );

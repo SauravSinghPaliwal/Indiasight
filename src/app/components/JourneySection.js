@@ -5,7 +5,7 @@ import styles from "./JourneySection.module.css";
 export default function JourneySection() {
   return (
     <section className={styles.journeyContainer}>
-      <h2>Join us to begin your journey</h2>
+      <h2>{"Join us to begin your journey"}</h2>
       <div className={styles.floatingAvatars}>
         {/* Add real images or placeholders for floating avatars */}
         <div className={styles.avatarItem}>

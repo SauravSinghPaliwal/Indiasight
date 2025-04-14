@@ -5,16 +5,15 @@ import styles from "./ConnectSection.module.css";
 export default function ConnectSection() {
   return (
     <section className={styles.connectContainer}>
-      <h2>Let’s connect!</h2>
+      <h2>{"Let’s connect!"}</h2>
       <p>
-        Let’s learn about each other and ultimately create a long-term, 
-        win-win relationship.
+        {"Let’s learn about each other and ultimately create a long-term, win-win relationship."}
       </p>
       <div className={styles.ellipseWrapper}>
         <button className={styles.demoButton}>Book FREE Demo!</button>
         <div className={styles.profileCard}>
           <img
-            src="/path/to/avatar.jpg"
+            src="avatar.png"
             alt="User Avatar"
             className={styles.avatar}
           />
