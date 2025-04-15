@@ -1,5 +1,5 @@
 .blogSlugPage {
-    background: url("ai-hero.png") center center / cover no-repeat fixed;
+    background: url("/ai-hero.png") center center / cover no-repeat fixed;
     min-height: 100vh;
     padding: 80px 20px;
     display: flex;

@@ -27,8 +27,8 @@ export default function BlogPreview() {
             <div className={styles.cardContent}>
               <h3>{post.title}</h3>
               <p className={styles.meta}>
-                {new Date(post.date).toLocaleDateString()} · {post.author}
-              </p>
+                {new Date(post.date).toLocaleDateString()}
+            </p>
               <p className={styles.excerpt}>
                 {post.excerpt || "Click to read more..."}
               </p>

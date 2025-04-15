@@ -6,7 +6,7 @@ import styles from "./BlogSlug.module.css";
 // Format date safely
 function formatDate(dateStr) {
   return new Intl.DateTimeFormat("en-US", {
-    year: "numeris",
+    year: "numeric",
     month: "long",
     day: "numeric",
   }).format(new Date(dateStr));
