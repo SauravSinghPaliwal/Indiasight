@@ -189,8 +189,14 @@
   padding: 2rem 0;
 }
 .blogSection {
-  padding: 60px 20px;
-  background-color: #f9f9f9;
+  width: 95%;
+  margin: 2rem 0;
+  background: #f88e0352;
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  text-align: center;
+  /* No horizontal padding */
+  padding: 2rem 0;
 }
 
 /* Responsive adjustments */
