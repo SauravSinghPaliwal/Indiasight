@@ -14,7 +14,7 @@ export default function BlogPreview() {
       style={{ backgroundImage: "url('/images/bg/blog-preview-bg.jpg')" }}
     >
       <div className={styles.previewHeader}>
-        <h2>📰 Latest Blogs</h2>
+        <h2>Latest Blogs</h2>
         <p>Explore what we’re writing about this week.</p>
       </div>
 
